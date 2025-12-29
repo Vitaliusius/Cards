@@ -8,7 +8,7 @@ SKILLS = [
     "Стремительный прыжок",
     "Электрический выстрел",
     "Ледяной удар",
-    "Стремительный удар"
+    "Стремительный удар",
     "Кислотный взгляд",
     "Тайный побег",
     "Ледяной выстрел",
@@ -115,7 +115,7 @@ def main():
             "luck": random.randint(1, 100),
             "skill_1": skill_end[0],
             "skill_2": skill_end[1],
-            "skill_3": skill_end[2]
+            "skill_3": skill_end[2],
         }
 
         os.makedirs("output/svg", exist_ok=True)
@@ -126,5 +126,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
